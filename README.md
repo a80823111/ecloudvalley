@@ -1,11 +1,11 @@
 # ecloudvalley
  伊雲谷面試
 
-=程式結構
+# 程式結構
   請參考
 
-=使用方法
-1.使用RestoredCsvSchedule Console Application匯入RowData
+# 使用方法
+## 1.使用RestoredCsvSchedule Console Application匯入RowData
   修改RowData檔案路徑,設定檔路徑 RestoredCsvSchedule/Configuration/RestoredCsvScheduleSettings.json
   * Notice. 匯入資料有做Transaction , 因此檔案內只要有一筆資料錯誤就不會匯入
 
@@ -13,7 +13,7 @@
 
 
 
-=Api說明
+# Api說明
    說明 : 所有Api Response皆以進行封裝統一格式
    Swagger Url : http://122.116.211.180:85/swagger
    
@@ -159,7 +159,7 @@
 					}
 				}
 		
-=DB schema
+# DB schema
     資料表說明
 	* Notice. 因對此RowData意義不清楚 , 因此設計上不使用組合鍵去綁住商業邏輯 , 另外也有分析提供之RowData , 有一個欄位identity/LineItemId有重複因此不當作主鍵
 	
@@ -187,7 +187,7 @@
 	  ProductName nvarchar(500)
 	);
 	
-=How to reduce the response time / improve performance
+# How to reduce the response time / improve performance
 	1. 使用快取將報告快取
 	   以自己家用電腦來說 , 第一次查詢約2s , 第二次查詢都在20ms左右
 	   
