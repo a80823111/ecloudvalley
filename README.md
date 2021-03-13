@@ -5,7 +5,7 @@
 	請參考 https://github.com/a80823111/ecloudvalley/blob/main/Document/StructuralDesign.png
 	
 # 使用方法
-	使用RestoredCsvSchedule Console Application匯入RowData
+	## 使用RestoredCsvSchedule Console Application匯入RowData
 	  修改RowData檔案路徑,設定檔路徑 RestoredCsvSchedule/Configuration/RestoredCsvScheduleSettings.json
 	  * Notice. 匯入資料有做Transaction , 因此檔案內只要有一筆資料錯誤就不會匯入
 
@@ -16,7 +16,7 @@
 	說明 : 所有Api Response皆以進行封裝統一格式 <br>
 	Swagger Url : http://122.116.211.180:85/swagger
    
-	Api名稱:Get lineItem/UnblendedCost grouping by product/productname
+	## Api名稱:Get lineItem/UnblendedCost grouping by product/productname
 	Urls : /api/Report/UnblendedCostReport/{usageAccountId}
 	Method:Get
 	參數: 
