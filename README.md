@@ -2,8 +2,7 @@
   伊雲谷面試
 
 # 架構設計
-  請參考 https://github.com/a80823111/ecloudvalley/tree/main/Document
-  架構設計 StructuralDesign.png
+  請參考 https://github.com/a80823111/ecloudvalley/blob/main/Document/StructuralDesign.png
 
 # 使用方法
 	1.使用RestoredCsvSchedule Console Application匯入RowData
