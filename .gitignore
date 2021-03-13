@@ -1,0 +1,14 @@
+
+
+Server/.vs/*
+bin/*
+Server/Model/bin/*
+Server/Model/obj/*
+Server/Repository/bin/*
+Server/Repository/obj/*
+Server/Service/bin/*
+Server/Service/obj/*
+Server/WebApi/bin/*
+Server/WebApi/obj/*
+Server/RestoredCsvSchedule/bin/*
+Server/RestoredCsvSchedule/obj/*

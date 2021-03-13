@@ -1,0 +1,3 @@
+﻿{
+  "SqlServer": "Server = 172.30.157.45,1433;Database=ecloudvalley;User ID=sa;Password=!@#abcXYZ;MultipleActiveResultSets = True"
+}
