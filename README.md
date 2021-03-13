@@ -5,7 +5,7 @@
   請參考
 
 # 使用方法
-## 1.使用RestoredCsvSchedule Console Application匯入RowData
+1.使用RestoredCsvSchedule Console Application匯入RowData
   修改RowData檔案路徑,設定檔路徑 RestoredCsvSchedule/Configuration/RestoredCsvScheduleSettings.json
   * Notice. 匯入資料有做Transaction , 因此檔案內只要有一筆資料錯誤就不會匯入
 
@@ -14,12 +14,12 @@
 
 
 # Api說明
-   說明 : 所有Api Response皆以進行封裝統一格式
+   說明 : 所有Api Response皆以進行封裝統一格式 <br>
    Swagger Url : http://122.116.211.180:85/swagger
    
    
    
-    1. Api名稱:Get lineItem/UnblendedCost grouping by product/productname
+    1.Api名稱:Get lineItem/UnblendedCost grouping by product/productname
 	   Urls:http://122.116.211.180:85/api/Report/UnblendedCostReport/{usageAccountId}
 	   Method:Get
 	   參數: 
@@ -78,7 +78,7 @@
 			
 	------------------------------------------------------------------------------------------------------------------------------------
 	
-	2.  Api名稱:Get daily lineItem/UsageAmount grouping by product/productname
+	2.Api名稱:Get daily lineItem/UsageAmount grouping by product/productname
 		Urls:http://122.116.211.180:85/api/Report/UsageAmountDailyReport/{usageAccountId}
 		Method:Get
 		參數: 
